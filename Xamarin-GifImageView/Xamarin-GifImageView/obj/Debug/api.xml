@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.felipecsl.gifimageview.library">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.felipecsl.gifimageview.library.BuildConfig" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="PACKAGE_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.felipecsl.gifimageview.library&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="GifDecoder" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="GifDecoder" static="false" type="com.felipecsl.gifimageview.library.GifDecoder" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="advance" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="err" native="false" return="boolean" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCurrentFrameIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDelay" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFrameCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getLoopCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getNextDelay" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getNextFrame" native="false" return="android.graphics.Bitmap" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="init" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="read" native="false" return="int" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="read" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="read" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.io.InputStream">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="readBitmap" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="readBlock" native="false" return="int" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="readColorTable" native="false" return="int[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="readContents" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="readGraphicControlExt" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="readHeader" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="readLSD" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="readNetscapeExt" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="readShort" native="false" return="int" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setPixels" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="skip" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<field deprecated="not deprecated" final="true" name="MAX_STACK_SIZE" static="true" transient="false" type="int" type-generic-aware="int" value="4096" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="STATUS_FORMAT_ERROR" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="STATUS_OK" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="STATUS_OPEN_ERROR" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="act" static="false" transient="false" type="int[]" type-generic-aware="int[]" value="null" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="bgColor" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="bgIndex" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="block" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" value="null" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="blockSize" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="copyScratch" static="false" transient="false" type="int[]" type-generic-aware="int[]" value="null" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="currentFrame" static="false" transient="false" type="com.felipecsl.gifimageview.library.GifDecoder.GifFrame" type-generic-aware="com.felipecsl.gifimageview.library.GifDecoder.GifFrame" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="currentImage" static="false" transient="false" type="android.graphics.Bitmap" type-generic-aware="android.graphics.Bitmap" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="frameCount" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="framePointer" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="frames" static="false" transient="false" type="java.util.ArrayList" type-generic-aware="java.util.ArrayList&lt;com.felipecsl.gifimageview.library.GifDecoder.GifFrame&gt;" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="gct" static="false" transient="false" type="int[]" type-generic-aware="int[]" value="null" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="gctFlag" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="gctSize" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="height" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="lctFlag" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="lctSize" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="loopCount" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mainPixels" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" value="null" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mainScratch" static="false" transient="false" type="int[]" type-generic-aware="int[]" value="null" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="pixelAspect" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="pixelStack" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" value="null" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="prefix" static="false" transient="false" type="short[]" type-generic-aware="short[]" value="null" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="previousImage" static="false" transient="false" type="android.graphics.Bitmap" type-generic-aware="android.graphics.Bitmap" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="rawData" static="false" transient="false" type="java.nio.ByteBuffer" type-generic-aware="java.nio.ByteBuffer" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="renderImage" static="false" transient="false" type="android.graphics.Bitmap" type-generic-aware="android.graphics.Bitmap" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="status" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="suffix" static="false" transient="false" type="byte[]" type-generic-aware="byte[]" value="null" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="width" static="false" transient="false" type="int" type-generic-aware="int" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="GifDecoder.1" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="GifDecoder.GifFrame" static="true" visibility="">
+<field deprecated="not deprecated" final="false" name="bufferFrameStart" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="delay" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="dispose" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="ih" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="interlace" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="iw" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="ix" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="iy" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="lct" static="false" transient="false" type="int[]" type-generic-aware="int[]" value="null" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="transIndex" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="transparency" static="false" transient="false" type="boolean" type-generic-aware="boolean" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.ImageView" extends-generic-aware="android.widget.ImageView" final="false" name="GifImageView" static="false" visibility="public">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="GifImageView" static="false" type="com.felipecsl.gifimageview.library.GifImageView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="GifImageView" static="false" type="com.felipecsl.gifimageview.library.GifImageView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="clear" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isAnimating" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setBytes" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="startAnimation" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="stopAnimation" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="GifImageView.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="GifImageView.2" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+</package>
+</api>
