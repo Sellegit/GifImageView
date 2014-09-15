@@ -4,3 +4,6 @@ local.properties
 .idea
 *.iml
 build/
+
+Xamarin-GifImageView/Xamarin-GifImageView/bin/*
+Xamarin-GifImageView/Xamarin-GifImageView/obj/*

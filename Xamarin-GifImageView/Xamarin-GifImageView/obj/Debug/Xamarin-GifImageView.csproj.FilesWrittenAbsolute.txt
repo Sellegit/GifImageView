@@ -4,3 +4,9 @@
 /Users/dementrock/Sellegit/peach_mobile/Lib/GifImageView/Xamarin-GifImageView/Xamarin-GifImageView/bin/Debug/Xamarin-GifImageView.dll
 /Users/dementrock/Sellegit/peach_mobile/Lib/GifImageView/Xamarin-GifImageView/Xamarin-GifImageView/obj/Debug/Xamarin-GifImageView.dll
 /Users/dementrock/Sellegit/peach_mobile/Lib/GifImageView/Xamarin-GifImageView/Xamarin-GifImageView/obj/Debug/Xamarin-GifImageView.dll.mdb
+/Users/xichen/Projects/peach_modile/Lib/GifImageView/Xamarin-GifImageView/Xamarin-GifImageView/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/xichen/Projects/peach_modile/Lib/GifImageView/Xamarin-GifImageView/Xamarin-GifImageView/obj/Debug/XamarinGifImageView.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/xichen/Projects/peach_modile/Lib/GifImageView/Xamarin-GifImageView/Xamarin-GifImageView/bin/Debug/Xamarin-GifImageView.dll.mdb
+/Users/xichen/Projects/peach_modile/Lib/GifImageView/Xamarin-GifImageView/Xamarin-GifImageView/bin/Debug/Xamarin-GifImageView.dll
+/Users/xichen/Projects/peach_modile/Lib/GifImageView/Xamarin-GifImageView/Xamarin-GifImageView/obj/Debug/Xamarin-GifImageView.dll
+/Users/xichen/Projects/peach_modile/Lib/GifImageView/Xamarin-GifImageView/Xamarin-GifImageView/obj/Debug/Xamarin-GifImageView.dll.mdb
