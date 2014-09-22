@@ -4,8 +4,6 @@ local.properties
 .idea
 *.iml
 build/
-
-<<<<<<< HEAD
 # Build results
 [Dd]ebug/
 [Rr]elease/
@@ -103,7 +101,5 @@ UpgradeLog*.XML
 *.userprefs
 
 .sass-cache
-=======
 Xamarin-GifImageView/Xamarin-GifImageView/bin/*
 Xamarin-GifImageView/Xamarin-GifImageView/obj/*
->>>>>>> 6ede8bdd0f1327d5359407eef8ff5e077c6119bd
